@@ -7,6 +7,5 @@ const port = process.env.PORT || 5000;
 connectDB();
 
 app.listen(port, () => {
-    console.log(`URL Shorter API is running on port ${port}`);
-    console.log(`http://localhost:${port}`);
+    console.log(`TrimURL API started on port ${port}`);
 });

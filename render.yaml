@@ -14,3 +14,7 @@ services:
         sync: false
       - key: REDIS_URL
         sync: false
+      - key: BASE_URL
+        value: https://trimurl-x10s.onrender.com
+      - key: BASE_URL
+        value: https://trimurl-x10s.onrender.com
